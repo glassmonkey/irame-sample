@@ -1,0 +1,15 @@
+.counter {
+    font-size: 40px;
+}
+
+.gaming {
+    /* アニメーションの長さ */
+    animation: gaming 2s linear infinite;
+  }
+  @keyframes gaming {
+    /* 色の指定 */
+    0% { color: Magenta; }
+    33% { color: yellow; }
+    66% { color: Cyan; }
+    100% { color: Magenta; }
+  }

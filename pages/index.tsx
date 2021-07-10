@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import styles from 'styles/Home.module.css'
 import {Button} from '@components/button'
 
 export default function Home() {
@@ -13,7 +13,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          <a href="https://glasmonkey.dev">Home</a>
+          <a href="https://glassmonkey.dev">Home</a>
         </h1>
         <div className={styles.grid}>
           <Button />
