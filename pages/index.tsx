@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import {Button} from '@components/button'
 
 export default function Home() {
   return (
@@ -15,10 +15,8 @@ export default function Home() {
         <h1 className={styles.title}>
           <a href="https://glasmonkey.dev">Home</a>
         </h1>
-
-  
         <div className={styles.grid}>
-          TBD
+          <Button />
         </div>
       </main>
 
